@@ -29,7 +29,7 @@ library(SparkR)
 # COMMAND ----------
 
 # read in data from blob storage
-dat <- read.df("/mnt/data/{YOUR CONTAINER NAME}/sparkr-tutorials/hfpc_ex", 
+df <- read.df("/mnt/data/{YOUR CONTAINER NAME}/sparkr-tutorials/hfpc_ex", 
 				header = "false", 
 				inferSchema = "true")
 
